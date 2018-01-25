@@ -1,9 +1,9 @@
 
 ### Building a restaurant application w/ Node.js & friends(Mongo, express, pug, Sass etc.)
--
 
 ## INSTRUCTIONS
 ```sh
+$ npm i 
 $ npm start
 ```
 
