@@ -1,7 +1,6 @@
 
-### Building a FULL Restaurant application w/ Node.js & friends(Mongo, express, pug etc.)
-
-Building a full stack restaurant application, giving users the capability to search, geolocate, review & fav their favourite restaurants from around the world.
+### Building a restaurant application w/ Node.js & friends(Mongo, express, pug, Sass etc.)
+-
 
 ## INSTRUCTIONS
 ```sh
@@ -15,7 +14,9 @@ $ npm start
 - Desktop Responsive
 - Geolocation
 - Search Functionality
-- Manipulating Store Details
+- Manipulating Store Details (MongoDB)
+- Integrating with Google Maps API
+   
 
 
 **Updated Jan 25, 2018**
