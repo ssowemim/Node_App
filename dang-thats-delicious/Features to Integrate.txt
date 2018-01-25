@@ -4,3 +4,4 @@
     - Integrate with Google Fonts
     - Integrate with Google ReCaptcha
     - 404 page
+    - User Experience feedback - Required having (*), readonly (greyed out)
