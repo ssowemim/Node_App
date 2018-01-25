@@ -1,0 +1,5 @@
+- Default empty screen, no stores included
+- Fix forms to show alot nicer
+    - No need to give long and lat two seperate lines, in-line
+    - Integrate with Google Fonts
+    - Integrate with Google ReCaptcha
