@@ -3,13 +3,13 @@
 
 Building a full stack restaurant application, giving users the capability to search, geolocate, review & fav their favourite restaurants from around the world.
 
-##INSTRUCTIONS
+## INSTRUCTIONS
 ```sh
 $ npm start
 ```
 
 
-##APPLICATION FEATURES
+## APPLICATION FEATURES
 
 - Mobile Responsive
 - Desktop Responsive
