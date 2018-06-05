@@ -76,12 +76,17 @@ exports.updateStore = async (req, res) => {
     // Redriect them the store and tell them it worked
 };
 
-exports.getStoresBySlug = async(req, res, next) => {
+exports.getStoreBySlug = async(req, res, next) => {
   const store = await Store.findOne({ slug: req.params.slug });
 
   if (!store) {
       return next();
   }
-
   res.render('store', {store, title: store.name });
+};
+
+exports.getStoresByTag = async(req, res) => {
+    const tags = await Store.getTagsList();
+
+    res.render('tag', { tags, title: 'Tags'});
 };

@@ -6,8 +6,9 @@ function autocomplete(input, latInput, lngInput) {
     /*
     Come back to include more details in regards to that address location!
      */
-    dropdown.addListener('place_changed', ()=> {
+    dropdown.addListener('place_changed', () => {
         const place= dropdown.getPlace();
+        console.log(place);
         latInput.value = place.geometry.location.lat();
         lngInput.value = place.geometry.location.lng();
     });
